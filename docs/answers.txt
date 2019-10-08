@@ -16,19 +16,19 @@ command = git log
 Wed Sep 25 18:13:30 2019
 command = git log .gitignore
 (d) 
+branches are used so developers don't interfere with each other's code during development
 (e) 
 git log: shows the history of commits pushed to branch
 git status: shows the files ready to be committed 
 (f) 
 git log Vehicle.h
 (g) 
-(h) 
-(I)
+(h)(I)
 Subclasses inherit the features of a superclass
-(II)
+(h)(II)
 Operator overloading, method overloading
 the ability to redefine methods for derived classes
-(III)
+(h)(III)
 used to hide the internal representation, or state, of an object from the outside.
 
 (i) 
@@ -36,3 +36,5 @@ Dictator and Lieutenants - Everyone makes pull from this repository. Only the di
 Integration Manager - Each developer makes pull and push to his/her own public repository.
 (j)
 There would be way less merge conflicts with dictator and lieutenants workflow which otherwise would cause many headaches.
+
+5. The driving simulator uses encapsulation but does not use polymorphism. Encapsulation involves the use of classes to make data members private and declare setters and getters for each data member which is used in each class.
